@@ -1,0 +1,489 @@
+ .signup-wrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .signup-box {
+    width: 80%;
+    height: 80vh;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+ }
+
+ .signup-left {
+    width: 50%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .signup-right {
+    width: 50%;
+    padding: 10px;
+ }
+
+ .form {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .form input {
+    padding: 8px;
+    border: 1px solid #a5a5a5;
+    border-radius: 10px;
+    width: 80%;
+    height: 45px;
+    font-size: 15px;
+ }
+
+ select {
+    padding: 8px;
+    border: 1px solid #a5a5a5;
+    border-radius: 10px;
+    width: 80%;
+    height: 45px;
+    font-size: 15px;
+ }
+
+ .form button {
+    background-color: antiquewhite;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    width: 80%;
+    height: 42px;
+    font-size: 15px;
+    cursor: pointer;
+ }
+
+ .picture {
+    width: 122px;
+    height: 105px;
+ }
+
+ .heading1 {
+    font-size: 35.5px;
+    margin-left: 24px;
+    font-weight: 600;
+ }
+
+ .para1 {
+    font-size: 24px;
+    font-weight: 300;
+ }
+
+ .your-logo {
+    height: 30px;
+ }
+
+ .link {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+ }
+
+ .Dashboard {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, skyblue, antiquewhite);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .Dashboard-container {
+    width: 90%;
+    height: 93vh;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+ }
+
+ .Dashboard-nav {
+    width: 20%;
+    height: 93vh;
+    background-color: rgb(175, 225, 245);
+    padding: 10px;
+ }
+
+ .Dashboard-main {
+    width: 80%;
+    height: 93vh;
+    background-color: rgb(237, 237, 237);
+ }
+
+ .top-bar {
+    height: 80px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    gap: 7px;
+ }
+
+ .logo-c {
+    width: 50px;
+    height: 50px;
+    background-color: beige;
+    border-radius: 49%;
+    overflow: hidden;
+ }
+
+ .profile {
+    width: 99%;
+    height: 85%;
+ }
+
+ .profile-con {
+    display: flex;
+    flex-direction: column;
+    padding: 2.2px;
+ }
+
+ .logout-btn {
+    margin-left: 18px;
+    margin-bottom: 10px;
+    height: 20.3px;
+    width: 92px;
+    background-color: rgb(159, 217, 240);
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+
+ .logo-2 {
+    width: 49px;
+    height: 41px;
+    border-radius: 5px;
+    background-color: rgb(206, 241, 255);
+ }
+
+ .brand-container {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    gap: 10px;
+    margin: -28px -4px;
+ }
+
+ .institute-name {
+    font-size: 23px;
+    font-weight: 529.9;
+ }
+
+ .menu-container {
+    display: flex;
+    flex-direction: column;
+    margin: 16px -8px;
+    font-weight: 370;
+ }
+
+ .menu-link {
+    color: rgb(12, 21, 37);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5.5px;
+ }
+
+ .menu-active-link {
+    color: rgb(12, 21, 37);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5.5px;
+    background-color: rgb(147, 224, 255);
+ }
+
+ .menu-link:hover {
+    background-color: rgb(147, 224, 255);
+    transition: 0.3s;
+ }
+
+ .contact {
+    position: absolute;
+    bottom: 3vh;
+    color: rgb(12, 21, 37);
+    font-size: small;
+    cursor: pointer;
+
+ }
+
+ .course-box {
+    width: 23%;
+    height: 25vh;
+    background-color: aliceblue;
+    overflow: hidden;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+ }
+
+ .course-box:hover {
+    box-shadow: 1px 1px 10px rgb(54, 113, 136);
+    transition: 0.5s;
+ }
+
+ .course-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    margin: 8px 4px;
+    flex-wrap: wrap;
+ }
+
+ .course-image {
+    width: 100%;
+    height: 17vh;
+ }
+
+ .course-title {
+    font-size: 17px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: -3px;
+ }
+
+ .course-price {
+    font-size: 12px;
+    margin: 3px 1px;
+    text-align: center;
+    color: #a5a5a5;
+ }
+
+ .detail-main-wrapper {
+    background-color: #fffcfc;
+    height: 80vh;
+    padding: 9px;
+ }
+
+ .detail-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    text-transform: capitalize;
+    margin: -12px 0px;
+    height: 33vh;
+ }
+
+ .detail-wrapper img {
+    width: 200px;
+    height: 168px;
+ }
+
+ .student-container {
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    overflow-y: auto;
+    border-radius: 2px
+ }
+
+ table {
+    width: 100%;
+
+ }
+
+ .stu-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 8px;
+ }
+
+ th,
+ td {
+    text-align: left;
+    padding: 8px;
+
+ }
+
+ tr:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+
+ th {
+    color: #a5a5a5;
+ }
+
+ .description {
+    overflow: auto;
+    height: 12vh;
+ }
+
+ .btn-container {
+    width: 37%;
+ }
+
+ .course-cont {
+    width: 25%;
+ }
+
+ .btn-1 {
+    background-color: rgb(159, 217, 240);
+    padding: 10px;
+    border-radius: 5px;
+    width: 82px;
+ }
+
+ .btn-2 {
+    background-color: rgb(253, 135, 135);
+    padding: 10px;
+    border-radius: 5px;
+    width: 82px;
+ }
+
+ .btn-set {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+
+ }
+
+ .student-detail {
+    width: 100%;
+    height: 80vh;
+    padding: 7px;
+ }
+
+ .detail-cont {
+    width: 100%;
+    height: 30vh;
+ }
+
+ .fees-cont {
+    width: 100%;
+    height: 42vh;
+    overflow: auto;
+    border-radius: 5px;
+    padding: 10px;
+ }
+
+ .student-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+ }
+
+ .btn-3 {
+    width: 30%;
+    display: flex;
+    gap: 2%;
+    height: 5.9vh;
+
+ }
+
+
+ .sd-pic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3%;
+ }
+
+ .sd-pic img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 8px;
+ }
+
+ .emg-1 {
+    font-size: small;
+    margin: -15px 0px;
+ }
+
+ .pay-cont {
+    width: 100%;
+    height: 80%;
+    overflow: auto;
+ }
+
+ .home-cont {
+    width: 100%;
+    height: 80vh;
+    padding: 5px;
+
+ }
+
+ .box-cont {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    justify-content: space-around;
+ }
+
+ .box {
+    width: 31%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+ }
+
+ .box-1 {
+    background-color: rgb(167, 167, 250);
+    margin-left: 2px;
+ }
+
+ .box-2 {
+    background-color: rgb(254, 202, 211);
+ }
+
+ .box-3 {
+    background-color: rgb(183, 234, 254);
+ }
+
+ .box p {
+    font-size: 15px;
+ }
+
+ .list-cont {
+    width: 100%;
+    height: 51vh;
+    margin-top: 2vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .tble-cont {
+    width: 49%;
+    background-color: rgb(205, 236, 240);
+    border-radius: 4px;
+    padding: 1%;
+    overflow: auto;
+ }
+.tble-cont::-webkit-scrollbar
+{
+   display: none;
+}
